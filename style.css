@@ -6,12 +6,17 @@
 body {
     background-color: rgb(25,25,25);
     color: #ffffff;
-    font-family: "Arial","sans-serif";
+    font-family: "Titillium Web", "Arial","sans-serif";
+}
+
+nav {
+    position: sticky;
+    top: 0;
 }
 
 nav div {
-    /* background-color: rgb(0,100,100); */
-    padding: 2vh 5vw;
+    background-color: rgb(25,25,25);
+    padding: 1vh 5vw;
 }
 
 nav div ul {
@@ -19,7 +24,6 @@ nav div ul {
     justify-content: right;
     align-items: center;
     list-style-type: none;
-    font-family: "Titillium Web", "Arial","sans-serif";
     font-weight: 570;
     font-size: 1.85ch;
 }
@@ -38,4 +42,64 @@ nav div ul .nav-element {
 
 nav div ul li a:hover {
     background-color: rgb(40,40,40);
+}
+
+.introduction {
+    display: flex;
+    font-size: 1.7ch;
+    margin: 12vh 0 0 0;
+}
+
+.portrait {
+    border-radius: 50%;
+    height: 40vw;
+    width: 40vw;
+    margin: 0 0 0 7vw;
+}
+
+.introduction div {
+    margin: 0 3vw 0 4vw;
+}
+
+.subtext {
+    font-size: 2ch;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.subtext a {
+    text-decoration: none;
+    color: rgb(90,255,230);
+}
+
+.subtext a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.title {
+    font-size: 6ch;
+    font-weight: 500;
+}
+
+.highlight {
+    color: rgb(90,255,230);
+}
+
+.small-icon {
+    border-radius: 50%;
+    height: 3.3vw;
+    width: 3.3vw;
+}
+
+.small-icon:hover {
+    filter: brightness(1.8);
+    animation: bounce-up 0.6s;
+    transform: translateY(-0.7vh)
+}
+
+@keyframes bounce-up {
+    0%   { transform: translateY(0); }
+    40%  { transform: translateY(-0.7vh); }
+    100%  { transform: translateY(-0.7vh); }
 }
