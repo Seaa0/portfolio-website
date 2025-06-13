@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(25,25,25);
+    color: #ffffff;
+    font-family: "Arial","sans-serif";
+}
+
+nav div {
+    /* background-color: rgb(0,100,100); */
+    padding: 2vh 5vw;
+}
+
+nav div ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+    font-family: "Titillium Web", "Arial","sans-serif";
+    font-weight: 570;
+    font-size: 1.85ch;
+}
+
+nav div ul .nav-element {
+    text-decoration: none;
+    color: rgb(165,187,204);
+    padding: 0.5vh 1.5vw;
+    border-radius: 10px;
+    margin: 0 0.35vw;
+}
+
+#curr-page {
+    color: rgb(90,255,230);
+}
+
+nav div ul li a:hover {
+    background-color: rgb(40,40,40);
+}
