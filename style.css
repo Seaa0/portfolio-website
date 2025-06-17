@@ -94,12 +94,24 @@ nav div ul li a:hover {
 
 .small-icon:hover {
     filter: brightness(1.8);
-    animation: bounce-up 0.6s;
+    animation: button-hover 0.6s;
     transform: translateY(-0.7vh)
 }
 
-@keyframes bounce-up {
+@keyframes button-hover {
     0%   { transform: translateY(0); }
     40%  { transform: translateY(-0.7vh); }
     100%  { transform: translateY(-0.7vh); }
+}
+
+.portfolio {
+    margin: 0 2vw;
+}
+
+.portfolio-header {
+    font-size: 3ch;
+    font-weight: 500;
+}
+.portfolio-subtext {
+    padding: 0 0 0 2vw;
 }
