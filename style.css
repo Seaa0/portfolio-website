@@ -115,3 +115,52 @@ nav div ul li a:hover {
 .portfolio-subtext {
     padding: 0 0 0 2vw;
 }
+
+.ctf-header {
+    font-size: 3ch;
+    font-weight: 500;
+    margin: 5vh 0 0 0;
+}
+
+.ctf-list {
+    padding: 3vh 6vw;
+}
+
+.ctf-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vh 8vw;
+    list-style: none;
+}
+
+.ctf-list ul li .outer-container {
+    width: 17vw;
+    background-color: rgb(13,112,104);
+    padding: 4vh 2vw;
+    height: 45vh;
+    border: 3px solid rgb(13,70,70);
+    border-radius: 20px;
+}
+
+.ctf-list ul li .inner-container {
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 3vh 0;
+}
+
+.ctf-list ul li div div img {
+    width: 15vw;
+    border-radius: 20px;
+}
+
+.ctf-list ul li div .ctf-list-header {
+    font-size: 2.3ch;
+    font-weight: 600;
+}
+
+.ctf-list ul li div .ctf-list-header#nco {
+    font-size: 2ch;
+    font-weight: 600;
+}
